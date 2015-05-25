@@ -1,6 +1,9 @@
 #!/bin/bash
 # Skaber templates til undervisningsdage.
 
+# Number of days
+days = 15
+
 # Skaber filerne
 touch crea-day{001..015}.md
 

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Create files for lessons and include the markdown agenda.
+
+# create the files
+# touch crea{001..015}.md
+
+# copies the template to all files
+# tee will copy to multiple files
+cat template.md | tee -a crea{001..015}.md
