@@ -1,7 +1,7 @@
 # agendaCreator 
 
 Planning tool for a new semester. 
-The loop will create a number of similar agendas i mardown format.
+The loop will create a number of similar agendas in the mardown format.
 
 Idea: genrate the markdown agendas via the loop. Fill in the lesson details.
 Add bibliographies.

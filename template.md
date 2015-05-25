@@ -1,9 +1,10 @@
+# Day x
 
-## Dagens tekst: [@HTMLCSS] kap. x
+## The text: [@HTMLCSS] kap. x
 
 ## Agenda
 
-* 09:00 - 10:00 Til stede. 
+* 09:00 - 10:00 Presence. 
 * Pause 
 * 10:20 - 11:30
 * Frokost
@@ -11,8 +12,6 @@
 * Pause
 * 13:15 - 14:30
 
-## Øvelse
+## Exercise
 
-## Inden næste lektion
-
-* Læs: [-@HTMLCSS] kap. X
+## Before next lesson read: [-@HTMLCSS] kap. X
