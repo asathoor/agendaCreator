@@ -1,0 +1,20 @@
+#!/bin/bash
+# Skaber templates til undervisningsdage.
+
+# Skaber filerne
+touch crea-day{001..015}.md
+
+# kopierer templates og indskriver titler
+for i in {001..015}
+do
+	echo "## Day $i" >> crea-day$i.md
+	cat template.md >> crea-day$i.md
+done
+
+# Tilføjer litteraturliste til den sidste fil og lidt mellemrum
+echo " " >> crea-day015.md
+echo " " >> crea-day015.md
+echo "## Curriculum" >> crea-day015.md
+
+
+cowsay -f tux "So I have created the files"
