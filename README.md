@@ -63,3 +63,32 @@ depending on how you edit template.md
 ~~~~
 
 The file is also an example of how you format a markdown file.
+
+## Pandoc
+
+With pandoc you can compile the file to many fileformats such as:
+
+* .odt
+* .pdf (requires Latex)
+* .html
+* .tex
+* and even (oh horror and gnashing of teeth) ... .docx
+
+The line containing [@HTMLCSS] will add a book from the bibliography.
+HTMLCSS is the shorthand name given in the bibliographer file:
+
+~~~~
+@Book{HTMLCSS,
+  Author         = {Ullman, Larry},
+  Title          = {P{HP} for the {W}eb},
+  Publisher      = {Peachpit Press},
+  year           = 2011
+}
+~~~~
+
+
+## Compile pandoc
+
+Here's how to compile pandoc with bibliography and table of contents (toc):
+
+  # pandoc myText.md --bibliography=bogliste.bib -o test.pdf
