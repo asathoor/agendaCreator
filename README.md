@@ -17,7 +17,7 @@ You can run the bash file like this in a terminal window
 
   ./agendas
 
-The result is somethink like this:
+The result is somethink like this in the folder */output*:
 
 ~~~~
 crea001.md
@@ -63,6 +63,3 @@ depending on how you edit template.md
 ~~~~
 
 The file is also an example of how you format a markdown file.
-
-
-
