@@ -91,4 +91,6 @@ HTMLCSS is the shorthand name given in the bibliographer file:
 
 Here's how to compile pandoc with bibliography and table of contents (toc):
 
+~~~~
   # pandoc myText.md --bibliography=bogliste.bib -o test.pdf
+~~~~
