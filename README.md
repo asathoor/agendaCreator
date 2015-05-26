@@ -94,3 +94,15 @@ Here's how to compile pandoc with bibliography and table of contents (toc):
 ~~~~
   # pandoc myText.md --bibliography=bogliste.bib -o test.pdf
 ~~~~
+
+## pdfmaker
+
+If you run the file:
+
+~~~~
+./pdfmaker
+~~~~
+
+all files will be compiled to one, with list of content and bibliography.
+The comandline resemples the pandoc command above.
+
