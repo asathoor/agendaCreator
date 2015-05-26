@@ -7,4 +7,4 @@
 
 # copies the template to all files
 # tee will copy to multiple files
-cat template.md | tee -a crea{001..015}.md
+cat template.md | tee -a output/crea{001..015}.md

@@ -10,3 +10,59 @@ At the end of the semester creating a compiled version with literature and other
 
 * agenda - improved by Occam's razor to a oneliner.
 * loop - the first version with cunning loops.
+
+## Run agendas
+
+You can run the bash file like this in a terminal window
+
+  ./agendas
+
+The result is somethink like this:
+
+~~~~
+crea001.md
+crea002.md
+crea003.md
+crea004.md
+crea005.md
+crea006.md
+crea007.md
+crea008.md
+crea009.md
+crea010.md
+crea011.md
+crea012.md
+crea013.md
+crea014.md
+crea015.md
+~~~~
+
+# The agendas
+
+The agendas will look somewhat like this, 
+depending on how you edit template.md
+
+~~~~
+# Day x
+
+## The text: [@HTMLCSS] kap. x
+
+## Agenda
+
+* 09:00 - 10:00 Presence. 
+* Pause 
+* 10:20 - 11:30
+* Frokost
+* 12:00 - 13:00
+* Pause
+* 13:15 - 14:30
+
+## Exercise
+
+## Before next lesson read: [-@HTMLCSS] kap. X
+~~~~
+
+The file is also an example of how you format a markdown file.
+
+
+
