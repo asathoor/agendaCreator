@@ -1,0 +1,5 @@
+# Creates pdf with references
+pandoc  --bibliography=/home/per/Dokumenter/bogliste/bogliste.bib --toc *md -o x.pdf
+
+# open the document
+evince x.pdf
